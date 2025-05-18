@@ -1,3 +1,9 @@
+# Question: https://codeforces.com/problemset/problem/263/A
+
+# Idea:
+# Calculate the manhattan distance between the position of the number 1 in the matrix and
+# the position of the center cell , which is at the interesection of third row and third column.
+
 def solve (mat):
     for i in range(len(mat)):
         for j in range(len(mat[0])):
